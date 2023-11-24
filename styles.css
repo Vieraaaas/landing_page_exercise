@@ -10,7 +10,7 @@ h1 {
   font-weight: bolder;
 }
 
-.header {
+.hero {
   display: flex;
   flex-direction: column;
   background-color: #1F2937;
@@ -18,7 +18,7 @@ h1 {
   padding: 0 15% 50px;
 }
 
-.header button {
+.hero button {
   color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 10%;
@@ -28,7 +28,7 @@ h1 {
   max-width: fit-content;
 }
 
-.hero {
+.header {
   display: flex;
   gap: 20px;
   justify-content: space-between;
