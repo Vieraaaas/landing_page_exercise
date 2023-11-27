@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
   background-color: #1F2937;
   color: #F9FAF8;
   padding: 0 15% 50px;
+  
 }
 
 .hero button {
@@ -26,6 +29,7 @@ h1 {
   padding: 4px 16px;
   border: none;
   max-width: fit-content;
+  
 }
 
 .header {
@@ -66,4 +70,48 @@ h1 {
 .hero-image {
   max-height: 300px;
   max-width: 300px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  color: #1F2937;
+  
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  align-self: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  margin: 0 2%;
+}
+
+.infocube {
+  display: flex;
+  justify-content: center;
+  margin: 0 20% 10%;
+  flex-wrap: wrap;
+}
+
+.information img {
+  max-height: 150px;
+  max-width: 150px;
+  border: solid;
+  border-color: #3882F6;
+  border-radius: 10%;
+}
+
+.info p{
+  max-width: 150px;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 16px;
 }
