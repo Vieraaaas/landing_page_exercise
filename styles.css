@@ -171,3 +171,11 @@ h2 {
   border-color: #F9FAF8;
   max-width: fit-content;
 }
+
+.footer {
+  background-color: #1F2937;
+  color:#F9FAF8;
+  text-align: center;
+  font-size: 16px;
+  padding: 0.5% ;
+}
