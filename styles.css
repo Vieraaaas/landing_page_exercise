@@ -97,7 +97,7 @@ h2 {
 .infocube {
   display: flex;
   justify-content: center;
-  margin: 0 20% 10%;
+  margin: 0 20% 2%;
   flex-wrap: wrap;
 }
 
@@ -114,4 +114,26 @@ h2 {
   text-align: center;
   margin-top: 4px;
   font-size: 16px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+  padding: 5% 25%;
+  
+}
+
+.quotesource {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+}
+
+.quotetext {
+  margin: 0;
 }
