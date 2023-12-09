@@ -61,6 +61,7 @@ h1 {
 
 .hero-text {
   margin: 16px;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
