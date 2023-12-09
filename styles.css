@@ -55,21 +55,23 @@ h1 {
 .hero-content {
   display: flex;
   justify-content: space-between;
-  
+  flex-wrap: wrap;
   
 }
 
 .hero-text {
-  margin-right: 16px;
+  margin: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+  flex: 1;
 }
 
 .hero-image {
-  max-height: 300px;
   max-width: 300px;
+  align-self: center;
+  margin: auto;
+  
 }
 
 .information {
