@@ -32,6 +32,11 @@ h1 {
   
 }
 
+.hero a {
+  max-width: fit-content;
+  
+}
+
 .header {
   display: flex;
   gap: 20px;
